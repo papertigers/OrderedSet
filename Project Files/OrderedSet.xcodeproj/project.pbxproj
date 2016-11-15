@@ -40,7 +40,7 @@
 		1ABC4FCE1A5C966200DC4F4D /* OrderedSetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderedSetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABC4FD31A5C966200DC4F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ABC4FDE1A5C97F500DC4F4D /* OrderedSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderedSet.swift; path = ../../Sources/OrderedSet.swift; sourceTree = "<group>"; };
-		3BB89F051DDB8982008691EB /* OrderedSet tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "OrderedSet tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB89F051DDB8982008691EB /* OrderedSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB89F071DDB8982008691EB /* OrderedSet tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrderedSet tvOS.h"; sourceTree = "<group>"; };
 		3BB89F081DDB8982008691EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 			children = (
 				1ABC4FB71A5C966200DC4F4D /* OrderedSet.app */,
 				1ABC4FCE1A5C966200DC4F4D /* OrderedSetTests.xctest */,
-				3BB89F051DDB8982008691EB /* OrderedSet tvOS.framework */,
+				3BB89F051DDB8982008691EB /* OrderedSet.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 			);
 			name = "OrderedSet tvOS";
 			productName = "OrderedSet tvOS";
-			productReference = 3BB89F051DDB8982008691EB /* OrderedSet tvOS.framework */;
+			productReference = 3BB89F051DDB8982008691EB /* OrderedSet.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -498,7 +498,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lightsandshapes.OrderedSet;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = OrderedSet;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -528,7 +528,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lightsandshapes.OrderedSet;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = OrderedSet;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
