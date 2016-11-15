@@ -576,6 +576,7 @@
 				3BB89F0B1DDB8982008691EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
